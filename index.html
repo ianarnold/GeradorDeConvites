@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de convites usando CANVAS</title>
+</head>
+<body>
+
+<form>
+    <h1>Digite as principais informações da sua festa</h1>
+    <br>
+
+        <input
+            type="text"
+            id="texto1"
+            name="texto1"
+            placeholder="Nome do aniversariante"/>
+
+        <input type="number" id="texto2" name="texto2" placeholder="Idade"/>
+
+        <input type="text" id="texto3" name="texto3" placeholder="Endereço do local"/>
+
+        <select name="convites" id="convites">
+            <option value="1">1º Convite</option>
+            <option value="2">2º Convite</option>
+            <option value="3">3º Convite</option>
+
+        </select>
+
+        <br>
+            <br>
+                <img
+                    id="convite1"
+                    width="110"
+                    height="110"
+                    src="img/convite1.png"
+                    alt="convite1">
+
+                    <img
+                        id="convite2"
+                        width="110"
+                        height="110"
+                        src="img/convite2.png"
+                        alt="convite2">
+
+                        <img
+                            id="convite3"
+                            width="110"
+                            height="110"
+                            src="img/convite3.png"
+                            alt="convite3">
+
+                            <button class="button" type="button" onclick="exibir()">Gerar convite</button>
+
+                            <br>
+
+                                <br></form>
+
+                                <section>
+                                    <a></a>
+
+                                    <h1>Este é seu convite</h1>
+                                    <h3>Faça o download</h3>
+
+                                    <canvas
+                                        id="myCanvas"
+                                        width="435"
+                                        height="500"
+                                        style="border:1px solid #d3d3d3;"></canvas>
+                                  
+
+                                </section>
+                                    
+</body>
+<script src="index.js"></script>
+</html>
